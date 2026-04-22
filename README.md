@@ -26,12 +26,19 @@ Setup Instructions
 Install dependencies
 
 npm install
+
 Install navigation packages
+
 npx expo install @react-navigation/native
+
 npx expo install @react-navigation/native-stack
+
 Install React Spring
+
 npm install @react-spring/native
+
 Start the project
+
 npx expo start
 
 Author
