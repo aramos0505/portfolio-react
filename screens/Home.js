@@ -1,44 +1,26 @@
 import React from 'react'
 import { View, Text, StyleSheet, Image } from 'react-native'
-import { useSpring, animated } from '@react-spring/native'
-
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-const AnimatedView = animated(View)
-
 export default function Home({ navigation }) {
-  const fadeIn = useSpring({
-    from: {
-      opacity: 0
-    },
-    to: {
-      opacity: 1
-    },
-    config: {
-      duration: 1000
-    }
-  })
-
   return (
     <View style={styles.container}>
       <View>
         <Navbar navigation={navigation} />
 
-        <AnimatedView style={fadeIn}>
-          <Text style={styles.title}>Welcome to My Portfolio</Text>
+        <Text style={styles.title}>Welcome to My Portfolio</Text>
 
-          <View style={styles.imageShadow}>
-            <Image
-              source={require('../assets/profile.jpg')}
-              style={styles.image}
-            />
-          </View>
+        <View style={styles.imageShadow}>
+          <Image
+            source={require('../assets/profile.jpg')}
+            style={styles.image}
+          />
+        </View>
 
-          <Text style={styles.text}>
-            Hello! My name is Angelee Ramos, I'm a junior studying Digital Media at the University of Central Florida.
-          </Text>
-        </AnimatedView>
+        <Text style={styles.text}>
+          Hello! My name is Angelee Ramos, I'm a junior studying Digital Media at the University of Central Florida.
+        </Text>
       </View>
 
       <Footer />
