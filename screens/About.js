@@ -8,17 +8,21 @@ export default function About() {
 
         <View style={styles.imageShadow}>
           <Image
-            source={require('../assets/about.jpg')}
+            source={{
+              uri: 'https://raw.githubusercontent.com/aramos0505/portfolio-react/master/assets/about.jpg'
+            }}
             style={styles.image}
           />
         </View>
 
         <Text style={styles.text}>
-          Hello my name is Angelee Ramos. Im a junior studying Digital Media at the University of Central Florida.
+          Hello my name is Angelee Ramos. Im a junior studying Digital Media at
+          the University of Central Florida.
         </Text>
 
         <Text style={styles.text}>
-          When I'm not working on school projects, I like to spend time outside with family, read webcomics, and paint!
+          When I'm not working on school projects, I like to spend time outside
+          with family, read webcomics, and paint!
         </Text>
 
         <Text style={styles.text}>
@@ -70,6 +74,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     borderRadius: 20,
     marginBottom: 20,
+
     shadowColor: '#000',
     shadowOpacity: 0.2,
     shadowRadius: 8,
@@ -77,6 +82,7 @@ const styles = StyleSheet.create({
       width: 0,
       height: 4
     },
+
     elevation: 6
   },
 

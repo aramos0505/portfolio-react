@@ -13,13 +13,19 @@ export default function Home({ navigation }) {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center'
+          }}
         >
           <Text style={styles.title}>Welcome to My Portfolio</Text>
 
           <View style={styles.imageShadow}>
             <Image
-              source={require('../assets/profile.jpg')}
+              source={{
+                uri: 'https://raw.githubusercontent.com/aramos0505/portfolio-react/master/assets/profile.jpg'
+              }}
               style={styles.image}
             />
           </View>

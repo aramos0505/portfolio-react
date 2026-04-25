@@ -1,4 +1,3 @@
-
 import { StyleSheet, Text, View } from 'react-native'
 import ProjectCard from '../components/ProjectCard'
 
@@ -9,19 +8,25 @@ export default function ProjectScreen() {
 
       <ProjectCard
         title="Bloom (2024)"
-        image={require('../assets/bloom.jpg')}
+        image={{
+          uri: 'https://raw.githubusercontent.com/aramos0505/portfolio-react/master/assets/bloom.jpg'
+        }}
         description="Acrylic on canvas, 16 x 20 inches. A self-portrait reflecting my personal journey of reconnecting with my heritage and growing into adulthood."
       />
 
       <ProjectCard
         title="Eden (2024)"
-        image={require('../assets/eden.jpeg')}
+        image={{
+          uri: 'https://raw.githubusercontent.com/aramos0505/portfolio-react/master/assets/eden.jpeg'
+        }}
         description="Acrylic on canvas, 16 x 20 inches. A still life painting of fruits and vegetables exploring color, balance, and natural beauty."
       />
 
       <ProjectCard
         title="Circus (2024)"
-        image={require('../assets/circus.jpeg')}
+        image={{
+          uri: 'https://raw.githubusercontent.com/aramos0505/portfolio-react/master/assets/circus.jpeg'
+        }}
         description="Acrylic on canvas, 16 x 20 inches. A surreal still life study that combines imaginative composition with symbolic visual elements."
       />
     </View>
