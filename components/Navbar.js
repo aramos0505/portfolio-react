@@ -40,7 +40,6 @@ const styles = StyleSheet.create({
     borderRadius: 18,
     overflow: 'hidden'
   },
-
   button: {
     backgroundColor: '#fffbf4',
     paddingVertical: 14,
@@ -49,7 +48,6 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: '#d6c7b8'
   },
-
   buttonText: {
     color: '#5c4033',
     fontSize: 16,

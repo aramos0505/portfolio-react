@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
@@ -48,3 +49,52 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+=======
+Portfolio React Native App
+Project Description
+
+This project is a personal portfolio application built using React Native with Expo. It showcases my background, skills, artwork, and projects. The app includes multiple screens for Home, About, Projects, and Contact, along with smooth navigation, animations, and form validation.
+
+Features
+- Home screen with welcome message and profile image
+- About Me screen with personal bio, skills, interests, and image
+- Projects screen showcasing three painting projects with images and descriptions
+- Contact screen with a contact form and validation
+- Persistent navigation bar and footer
+- React Navigation for multi-screen navigation
+- React Spring animation for smooth fade-in effects
+- Consistent custom color theme and styled UI components
+
+
+Technologies Used
+- React Native
+- Expo
+- React Navigation
+- React Spring
+- JavaScript
+- GitHub
+
+Setup Instructions
+Install dependencies
+
+npm install
+
+Install navigation packages
+
+npx expo install @react-navigation/native
+
+npx expo install @react-navigation/native-stack
+
+Install React Spring
+
+npm install @react-spring/native
+
+Start the project
+
+npx expo start
+
+Author
+Angelee Ramos
+Digital Media Student | Artist | Designer
+University of Central Florida
+>>>>>>> 62365bc64757f9aabf8a299b13e36f498fa45e78

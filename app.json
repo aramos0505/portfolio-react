@@ -4,15 +4,27 @@
     "slug": "portfolio-react",
     "version": "1.0.0",
     "orientation": "portrait",
+<<<<<<< HEAD
     "icon": "./assets/images/icon.png",
     "scheme": "portfolioreact",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+=======
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+>>>>>>> 62365bc64757f9aabf8a299b13e36f498fa45e78
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
+<<<<<<< HEAD
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
@@ -44,5 +56,15 @@
       "typedRoutes": true,
       "reactCompiler": true
     }
+=======
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+  "web": {
+    "bundler": "metro"
+  }
+>>>>>>> 62365bc64757f9aabf8a299b13e36f498fa45e78
   }
 }
