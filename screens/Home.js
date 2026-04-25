@@ -13,6 +13,7 @@ export default function Home({ navigation }) {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
+          style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
         >
           <Text style={styles.title}>Welcome to My Portfolio</Text>
 
@@ -46,7 +47,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 28,
     fontWeight: 'bold',
-    marginBottom: 10,
+    marginBottom: 20,
     textAlign: 'center',
     color: '#5c4033'
   },
@@ -54,13 +55,19 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 16,
     textAlign: 'center',
-    color: '#5c4033'
+    color: '#5c4033',
+    marginTop: 10,
+    lineHeight: 28,
+    maxWidth: 700
   },
 
   imageShadow: {
+    width: 250,
+    height: 250,
     alignSelf: 'center',
     borderRadius: 20,
     marginBottom: 20,
+
     shadowColor: '#000',
     shadowOpacity: 0.2,
     shadowRadius: 8,
@@ -68,6 +75,7 @@ const styles = StyleSheet.create({
       width: 0,
       height: 4
     },
+
     elevation: 6
   },
 
